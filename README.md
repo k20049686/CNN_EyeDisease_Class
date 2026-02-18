@@ -3,20 +3,20 @@
 ## Overview
 Early detection of ocular diseases such as cataracts and glaucoma can significantly improve prognosis. Automated detection algorithms leverage deep learning approaches and have gained traction in ophthalmic classification. Convolutional neural networks (CNN) have demonstrated impressive accuracy and potential to streamline diagnosis, reduce inconsistencies, and optimize healthcare resources. Challenges remain in scaling models for clinical integration and commercialisation. 
 
-This repo explores three CNN model architectures in image classification – simple, ResNet50, VGG-16
+This repo explores three CNN model architectures in image classification – Simple CNN architecture, ResNet50, VGG-16
 
 ### Workflow of all model building approaches 
 <img width="444" height="176" alt="image" src="https://github.com/user-attachments/assets/6d54dee4-8956-4f28-bf3a-757eeac61ae5" />
 
 ## Methods
-**All models were developed and evaluated in Python (TensorFlow/Keras) within Google Colab, implementing a full machine learning workflow including preprocessing, model training, validation, hyperparameter tuning and performance evaluation.**
+**All models were developed and evaluated in Python (TensorFlow, Keras, NumPy, scikit-learn) within Google Colab, implementing a full machine learning workflow including preprocessing, model training, validation, hyperparameter tuning and performance evaluation.**
 
 - **Dataset:** 501 retinal fundoscopic images
     - 300 no disease
     - 100 cataracts
     - 101 glaucoma 
 - **Training strategy:** 70% training data, 15% validation data, 15% testing data
--	**Model evaluations:** model performance metrics used included accuracy, recall (sensitivity), F1-scores and specificity. These were calculated from values determined from confusion matrices.
+-	**Model evaluations:** model performance metrics used included accuracy, recall (sensitivity), F1-scores and specificity. These metrics were calculated from values determined from confusion matrices.
 
 ## Model architectures
 <img width="452" height="101" alt="image" src="https://github.com/user-attachments/assets/dfa3635a-a4a4-458f-8714-d8982cf04536" />
